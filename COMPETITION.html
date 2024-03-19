@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arav's Shoe Shop</title>
+    <link rel="icon" type="img" href="images/logo12.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #01311F;
+            color: #C6AA58;
+            padding: 20px 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        .feature {
+            text-align: center;
+            flex: 0 1 calc(33.33% - 20px);
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #01311F;
+            color: #C6AA58;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        body {
+            margin: 0;
+            overflow-x:hidden;
+        }
+
+        .image-container {
+            overflow: hidden;
+            animation: moveImages 10s linear infinite;
+        }
+        .image {
+            max-width: 450px;
+            max-height: 400px;
+            margin-right: 20px;
+            object-fit:cover;
+        }
+
+        @keyframes moveImages {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        #welcome{
+            font-size: 40px;
+            text-align: center;
+        }
+        nav {
+        background-color: #01311F;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        color: #C6AA58;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+        background-color: #C6AA58;
+        color: #01311F;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo12.png" alt="logo">
+        <br><br>
+        <h1>Arav's Shoe Shop</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="COMPETITION.html">Home</a></li>
+            <li><a href="Jordanproducts.html">Products</a></li>
+            <li><a href="competitioncontact.html">Contacts</a></li>
+        </ul>
+    </nav>
+    
+
+
+    <div class="container">
+
+        <section class="hero">
+            <a href="diors.html"><img src="https://changsneakers.com/cdn/shop/files/Air-Jordan-1-Retro-High-Dior-Chang-Sneakers-44_5-2_800x.png?v=1692385574" alt=""></a>
+            <a href="mochas.html"><img src="https://www.kicksonfire.com/wp-content/uploads/2019/07/travis-scott-air-jordan-1-low-dark-mocha-6.jpg" alt="Hero Image"></a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <a href="Jordanproducts.html"><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2da24084-5651-43af-a2a1-1c27626cacda/dunk-low-womens-shoes-ppQwKZ.png" alt="Feature 1"></a>
+                <h3>Stylish Designs</h3>
+                <p>Discover our latest collection of trendy and fashionable shoe designs.</p>
+            </div>
+            <div class="feature">
+                <a href="airmaxesproducts.html"><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45fe911f-9c85-4012-9c72-5ac8b582591b/dunk-low-womens-shoes-ppQwKZ.png" alt="Feature 2"></a>
+                <h3>Comfort Guaranteed</h3>
+                <p>Experience unmatched comfort with our premium quality footwear.</p>
+            </div>
+            <div class="feature">
+               <a href="Shoesunder100.html"><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a2efb8df-29b1-4dfd-851c-7adefc70b59e/dunk-low-womens-shoes-ppQwKZ.png" alt="Feature 3"></a> 
+                <h3>Unbeatable Prices</h3>
+                <p>Shop now and enjoy amazing discounts on a wide range of shoes.</p>
+            </div>
+        </section>
+    </div>
+
+       <h2 id="welcome" >Trending</h2>
+
+        <section>
+            <div class="image-container">
+                <a href="pandadunkslow.html" target="_blank">
+                    <img src="images/aj4 bred.png"
+                        alt="Image 1" class="image">
+                </a>
+                <a href="retrowhiteandgold.html" target="_blank">
+                    <img src="images/air-jordan-4-retro-white-gold-womens-shoes-KWKqkq-removebg-preview.png" alt="Image 2"
+                        class="image">
+                </a>
+                <a href="adidassuperstarbuy.html" target="_blank">
+                    <img src="images/Superstar_Shoes_White_EG4958_06_standard-removebg-preview.png"
+                        alt="Image 3" class="image">
+                </a>
+                <a href="TrueFlight.html" target="_blank">
+                    <img src="images/jordan-true-flight-mens-shoes-9TwpBF-removebg-preview.png"
+                        alt="Image 4" class="image">
+                </a>
+                </div>
+        </section>
+
+    <footer>
+        <p>&copy; 2024  Arav Shoe Shop. All rights reserved.</p>
+    </footer>
+</body>
